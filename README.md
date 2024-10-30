@@ -1,3 +1,10 @@
 # US Geospatial Earthquake Data Analysis and Global Geospatial Tsunami Prediction
 
+In evaluating the models based on the primary metrics, both Geospatially Augmented models demonstrate superior performance in detecting tsunami risks. The Geospatially Augmented Logistic Regression model achieves a perfect recall and identifies all actual positive cases, which is crucial for minimizing the risks of false negatives. Also, the Geospatially Augmented Random Forest Classifier performs exceptionally well with a substantially high recall of 0.9 and perfect precision. All together, these results suggest that the geospatial features extracted from the data were valuable in helping the models understand correlations between proximity to coastline and tsunami risks.
+
+While the Random Forest models provide the robust ability to distinguish between classes, they may overlook some tsunami threats due to their lower recall scores. On the other hand, the Logistic Regression models have better recall scores on average, but are more prone to false positives, potentially leading to false alarms.
+
+In conclusion, the two Geospatially Augmented models strike a balance between identifying true tsunami risks and the risk of generating false alarms: the Logistic Regression model achieving a recall of 1.0 and Random Forest model achieving a precision of 1.0. Choosing between these approaches entails a trade off: adopting the Random Forest model may ensure fewer false negatives but risks overlooking some of the real threats, whereas the Logistic Regression model maximizes detecting true threats at the expense of false alarms. Given these considerations, what would you prefer: the potential for false alarms, or the risk of your city being decimated by a tsunami?
+
+
 ![36ddf35e-e8c1-4def-880a-043a2eeb9950](https://github.com/user-attachments/assets/fe61f9bd-a604-4137-82c5-ebaabec6f09d)
