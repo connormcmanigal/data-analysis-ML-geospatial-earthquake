@@ -4,4 +4,6 @@ In the first half of this notebook, I explore earthquake visualizations for the 
 
 Building upon these insights, I evaluated several models based on primary and secondary scoring metrics and discovered that Geospatially Augmented models excel in detecting tsunami risks. The Geospatial Logistic Regression model achieved a perfect recall of 1.0, while the Random Forest Classifier demonstrated a high recall of 0.9 along with perfect precision. These impressive results indicate that the geospatial features effectively highlighted correlations between proximity to coastlines and tsunami risks. However, the Random Forest model, while minimizing false negatives, may overlook some threats, whereas the Logistic Regression model, despite its higher recall, is more prone to false positives. Given these critical considerations, what would you prefer: the potential for false alarms, or the risk of your city being decimated by a tsunami?
 
+***View Notebook Here***: https://github.com/connormcmanigal/data-analysis-ML-geospatial-earthquake/blob/main/geoanalysis.ipynb
+
 ![36ddf35e-e8c1-4def-880a-043a2eeb9950](https://github.com/user-attachments/assets/fe61f9bd-a604-4137-82c5-ebaabec6f09d)
